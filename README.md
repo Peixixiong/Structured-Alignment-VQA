@@ -1,6 +1,6 @@
 # SA-VQA--Structured-Alignment-of-Visual-and-Semantic-Representations-for-Visual-Question-Answering
 
-This repository is the dev version of implementing the work [SA-VQA: Structured Alignment of Visual and Semantic Representations for Visual Question Answering]([https://www.google.com](https://arxiv.org/pdf/2201.10654.pdf)). 
+This repository is the dev version of implementing the work [SA-VQA: Structured Alignment of Visual and Semantic Representations for Visual Question Answering](https://arxiv.org/pdf/2201.10654.pdf). 
 
 More details will be updated.
 
