@@ -19,13 +19,13 @@ If you use our code or features, please cite our paper:
 The SA-VQA is released under the MIT License (refer to the LICENSE file for details).
 
 # Requirements
-This work is implemented on [Microsoft Azure Cloud](https://azure.microsoft.com/en-us/). Please modified the corresponding settings in the ```submit.py``` file.
+This work is implemented on [Microsoft Azure Cloud](https://azure.microsoft.com/en-us/). Please modify the corresponding settings in the ```submit.py``` file.
 
 The [Azureml Core](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core?view=azure-ml-py) package is required to install.
 
 # Training
 ```submit.py``` is the script to run the [Azure Machine Learning SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py) for Python.
-```main_itp_ddp_tar_super_node.py``` is used for training, and it is the script which will be run in parallel on multiple nodes. The settings are defined in the argument section in the *.py file.
+```main_itp_ddp_tar_super_node.py``` is used for training, and it is the script that will be run in parallel on multiple nodes. The settings are defined in the argument section in the *.py file.
 
 ```
 $ python3 main_itp_ddp_tar_super_node.py --model_v 3 \
@@ -34,6 +34,8 @@ $ python3 main_itp_ddp_tar_super_node.py --model_v 3 \
 ```
 
 ## Files
+All related scripts are in the ```models``` folder, while the rest of the folders are for ablation study usage only.
+
 ```submit.py``` is used to train on Azure Cloud.
 
 ```main_itp_ddp_tar_super_node.py``` is the training file.
